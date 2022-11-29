@@ -17,7 +17,7 @@ public class Main {
         //вывод результатов
         System.out.println("X+Y = " +sum);
         System.out.println("X-Y = " +diff);
-        System.out.println("X-Y = " +mult);
+        System.out.println("X*Y = " +mult);
         System.out.println("X/Y = " +div);
     }
 }

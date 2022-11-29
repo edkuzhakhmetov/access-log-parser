@@ -3,9 +3,22 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
-        System.out.println("Введите текст и нажмите <Enter>: ");
-        String text = new Scanner(System.in) .nextLine();
-        System.out.println("Длина текста: " + text.length());
+        //получить входящие данные
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите x: ");
+        int x = in.nextInt();
+        System.out.println("Введите y: ");
+        int y = in.nextInt();
+        //выполнить операции
+        int sum=x+y;
+        int diff=x-y;
+        int mult=x*y;
+        double div=x/y;
+        //вывод результатов
+        System.out.println("X+Y = " +sum);
+        System.out.println("X-Y = " +diff);
+        System.out.println("X-Y = " +mult);
+        System.out.println("X/Y = " +div);
     }
 }
 
